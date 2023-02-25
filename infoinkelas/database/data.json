@@ -1,0 +1,16 @@
+[
+    {
+        "id":1,
+        "title":"Kerja Kelompok",
+        "description":"Discord",
+        "duedate":"21-02-2023",
+        "status":"aktif"
+    },
+    {
+        "id":2,
+        "title":"Praktikum",
+        "description":"Lantai 3",
+        "duedate":"01-03-2023",
+        "status":"Nonaktif"
+    }
+]
