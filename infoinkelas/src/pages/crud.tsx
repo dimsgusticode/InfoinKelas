@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { BiPlus } from 'react-icons/bi';
 import Table from '../components/table';
+import Form from '../components/form';
 
 export default function Home() {
   return (
@@ -21,12 +22,15 @@ export default function Home() {
               Tambah Berita <span className='px-1'><BiPlus size={23}></BiPlus></span>
             </button>
           </div>
-          {/* collapsable form */}
         </div>
+        {/* collapsable form */}
+        <div className="container mx-auto py-5">
+            <Form></Form>
+        </div>
+        {/* table */}
         <div className='container mx-auto'>
-          {/* table */}
+            <Table></Table>
         </div>
-        <Table></Table>
       </main>
     </section>
   )

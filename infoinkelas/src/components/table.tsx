@@ -18,9 +18,6 @@ export default function Table(){
                         <span className="text-gray-200">Status</span>
                     </th>
                     <th className="px-16 py-2">
-                        <span className="text-gray-200">Date-added</span>
-                    </th>
-                    <th className="px-16 py-2">
                         <span className="text-gray-200">Action</span>
                     </th>
                 </tr>
@@ -37,10 +34,7 @@ export default function Table(){
                         <span>12-12-2012</span>
                     </td>
                     <td className="px-16 py-2">
-                        <span>Status</span>
-                    </td>
-                    <td className="px-16 py-2">
-                        <button className="cursor"><span className="bg-green-500 text-white px-5 py-1 rounded">Completed</span></button>
+                        <button className="cursor"><span className="bg-green-500 text-white px-5 py-1 rounded-md">Completed</span></button>
                     </td>
                     <td className='px-16 py-2 flex justify-around gap-5'>
                         <button className='cursor'><BiEdit size={25} color={"rgb(34,197,94"}></BiEdit></button>
