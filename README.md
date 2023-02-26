@@ -21,3 +21,6 @@ Paste text below to global.css
 @tailwind utilities;
 
 Happy coding...!
+
+Installing MongoDB dependencies
+Type npm i -D mongoose to install it
