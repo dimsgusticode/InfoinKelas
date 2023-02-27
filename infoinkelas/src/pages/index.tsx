@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import { BiPlus } from 'react-icons/bi';
-import Link from 'next/link';
+import { BiLogIn } from 'react-icons/bi';
 
 export default function Home() {
+
   return (
     <section>
       <Head>
@@ -19,17 +19,21 @@ export default function Home() {
                 <a href="" className='aria-current="page"'>Home</a>
               </li>
               <li>
-                <a href="#" className="">About</a>
+                <a href="">About</a>
               </li>
               <li>
-                <a href="#" className="">Login</a>
+                <a href="crud">CRUD</a>
+              </li>
+              <li>
+                <a href=""><BiLogIn size={23}></BiLogIn></a>
               </li>
             </ul>
           </div>
         </nav>
         <div className='mainPage py-5'>
-          <div className='join'>
-            {/* <h2>Join now</h2> */}
+          <div className='w-100 text-center border'>
+            <h2 className='text-2xl'>Welcome</h2>
+            <p>Description</p>
           </div>
         </div>
       </main>
